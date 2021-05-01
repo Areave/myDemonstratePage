@@ -2,6 +2,17 @@
 // servise class for methods
 export default class Service {
 
+
+
+
+
+    async getScriptText(scriptFileName) {
+        const script = await fetch('./js/' + scriptFileName)
+            .then(data => data.text());
+        console.log(script);
+        return script;
+    }
+
     // main method
     async getAPIObject(url) {
         const res = await fetch(url)
@@ -47,16 +58,18 @@ export default class Service {
         return arr;
     }
 
-    // get random pic from reddit.com/r/EarthPorn (it's not porn, I swear)
-    async getRandomPicFromReddit() {
+    // get array of random pic from reddit.com/r/EarthPorn (it's not porn, I swear)
+    async getPicArray() {
+        const picArray = this.getAPIObject('https://www.reddit.com/r/EarthPorn/.json')
+            .then(json => json.data.children);
+        return await picArray;
+    }
 
-        const randomPic = await this.getAPIObject('https://www.reddit.com/r/EarthPorn/.json')
-            .then(json => {
-                const arSize = json.data.children.length;
-                const randomNum = Math.floor(Math.random() * arSize);
-                return [json.data.children[randomNum].data.title, json.data.children[randomNum].data.url];
-            });
-        return randomPic;
+    // get array[title, url] of random pic from array
+    getRandomPic(picArray) {
+        const arSize = picArray.length;
+        const randomNum = Math.floor(Math.random() * arSize);
+        return [picArray[randomNum].data.title, picArray[randomNum].data.url];
     }
 
     // make one suitable object from 2 different promises

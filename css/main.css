@@ -454,12 +454,16 @@ html, body {
 }
 
 img {
-  width: 100%;
+  display: block;
   height: auto;
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
 }
 
 .main-wrapper {
   padding: 0 200px;
+  max-height: 100%;
 }
 
 .header {
@@ -503,6 +507,11 @@ img {
 .intro {
   padding-top: 120px;
   margin-bottom: 100px;
+  height: 100vh;
+}
+
+.intro-wrapper {
+  max-height: 100%;
 }
 
 .intro-desc-wrapper {
@@ -542,17 +551,29 @@ img {
   text-align: center;
 }
 
-.intro slider {
-  margin-bottom: 30px;
-}
-
-.intro slider-img {
-  opacity: .5;
-}
-
 .intro__form_wrapper {
   width: 100%;
   border: 2px #4e4e4e solid;
+}
+
+.reddit_pic-wrapper {
+  height: 60vh;
+}
+
+.reddit_pic-picture {
+  margin: 0 auto;
+  animation-name: Appearance;
+  animation-duration: .5s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+}
+
+@keyframes Appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .cards-title {
