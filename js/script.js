@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const f = fetch('./js/script.js');
     f.then(data=>data.text())
-    .then(text=>console.log(text + 3));
+    .then(text=>console.log(text + 33));
 
     // const service = new Service;
     // const code = service.getAPIObject('./service.js');
