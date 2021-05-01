@@ -1,0 +1,70 @@
+@import 'fonts';
+
+$primary-color:#04356c;
+$secondary-color:#ffda00;
+$third-color:#ff5640;
+$text-color-main:black;
+$text-color-middle: rgb(37, 37, 37);
+$text-color-light: rgb(99, 99, 99);
+$border: 2px rgb(78, 78, 78) solid;
+
+$fonts-families: (
+    'main': 'Montserrat',
+    'second': 'Kaushan Script',
+    'third': 'Roboto'
+);
+
+$font-weights: (
+    'max':700,
+    'regular':500,
+    'min': 400
+);
+
+$font-sizes: (
+    'big': 60px,
+    'second-big': 35px,
+    'middle': 24px,
+    'small': 18px
+);
+
+$line-heights: (
+    'big': 1.5,
+    'middle': 1.3,
+    'small': 1.2
+);
+
+// titles
+@mixin text-title {
+    font-family: map-get($fonts-families, second);
+    font-weight: map-get($font-weights, max );
+    font-size: map-get($font-sizes ,big );   
+    line-height: map-get($line-heights, big);
+    color:$text-color-main;
+}
+
+// subtitles
+@mixin text-subtitle {
+    font-family: map-get($fonts-families, main);
+    font-weight: map-get($font-weights, min );
+    font-size: map-get($font-sizes ,second-big );  
+    line-height: map-get($line-heights, middle);
+    color:$text-color-middle;  
+}
+
+// description
+@mixin text-desc {
+    font-family: map-get($fonts-families, main);
+    font-weight: map-get($font-weights, min );
+    font-size: map-get($font-sizes , small ); 
+    line-height: map-get($line-heights, middle);  
+    color:$text-color-light;   
+}
+
+// links etc
+@mixin text-small {
+    font-family: map-get($fonts-families, third);
+    font-weight: map-get($font-weights, regular );
+    font-size: map-get($font-sizes , middle ); 
+    line-height: map-get($line-heights, small);
+    color:$text-color-middle;     
+}
