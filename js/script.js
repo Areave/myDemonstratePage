@@ -1,15 +1,25 @@
+import Service from './service.js';
 import redditPic from './redditPic.js';
 import reviewCards from './reviewCards.js';
+import calc from './calc.js';
+import menu from './menu.js';
+import timer from "./timer.js";
+import favCustomer from './favCustomer.js';
 
-import Service from './service.js';
-const service = new Service();
+
 
 
 window.addEventListener('DOMContentLoaded', () => {
 
-    redditPic();
-    reviewCards(4);
+    const service = new Service();
 
+
+    redditPic();
+    reviewCards(3);
+    calc();
+    menu();
+    timer();
+    favCustomer();
 
 })
 

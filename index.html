@@ -71,21 +71,33 @@
 
 
 
+
                 </div>
             </div>
         </section>
 
-        <section class="favorite-customer">
+        <section class="fav-customer">
             <div class="main-wrapper">
-                <h2 class="cards-title">Our favorit customer!</h2>
-                <div class="cards-wrapper">
-
-                    <div class="slider">
-                        <img src="./img/slider.jpg" alt="slider" class="slider-img">
-
+                <h2 class="fav-customer-title">Our favorit customer!</h2>
+                <div class="fav-customer-card">
+                    <div class="fav-customer-pic-wrapper">
+                        <img src="" alt="" class="fav-customer-img">
                     </div>
-
+                    <div class="fav-customer-quote">
+                        <h3 class="fav-customer-quote-title">Jwfwefewfwef</h3>
+                        <p class="fav-customer-quote-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem ratione ea distinctio. Non tenetur quod tempore maxime voluptates sunt dicta vero! </p>
+                    </div>
                 </div>
+
+
+            </div>
+            </div>
+        </section>
+
+        <section class="slider">
+            <div class="slider-wrapper">
+                <img src="./img/slider.jpg" alt="slider" class="slider-img">
+
             </div>
         </section>
 
@@ -97,7 +109,7 @@
 
                 <div class="timer-title-wrapper">
                     <h2 class="timer-title">We know everything</h2>
-                    <p class="timer-info">Your city is <span class="city">Moscow</span>, and today is <span
+                    <p class="timer-info">Your city is <span class="city">Gotham</span>, and today is <span
                             class="weekday">Monday</span>, <span class="day">5</span> <span class="month">may</span>
                         <span class="year">2023</span>!
                     </p>
@@ -115,7 +127,7 @@
                     </div>
 
                     <div class="timer-card sec">
-                        <div class="num">23</div>
+                        <div class="num">32</div>
                         <div class="desc">seconds</div>
                     </div>
 
@@ -128,9 +140,47 @@
             <div class="main-wrapper">
                 <div class="calc-wrapper">
                     <h2 class="calc-title">We know about you</h2>
+
                     <div class="calc-fields">
-                        <input type="text" class="name-input">
-                        <input type="text" class="lastname-input">
+                        <div class="calculating__subtitle">
+                            Ваш пол
+                        </div>
+                        <div class="calculating__choose" id="gender">
+                            <div id="woman" class="calculating__choose-item active">Женщина</div>
+                            <div id="man" class="calculating__choose-item">Мужчина</div>
+                        </div>
+
+                        <div class="calculating__subtitle">
+                            Ваша конституция
+                        </div>
+                        <div class="calculating__choose" id="parameters">
+                            <input type="text" id="height" placeholder="Введите рост" class="calculating__choose-item">
+                            <input type="text" id="weight" placeholder="Введите вес" class="calculating__choose-item">
+                            <input type="text" id="age" placeholder="Введите возраст" class="calculating__choose-item">
+                        </div>
+
+                        <div class="calculating__subtitle">
+                            Выберите вашу физическую активность
+                        </div>
+                        <div class="calculating__choose" id="ratio">
+                            <div data-ratio="1.2" id="low" class="calculating__choose-item">Низкая активность </div>
+                            <div data-ratio="1.375" id="small" class="calculating__choose-item">Невысокая активность
+                            </div>
+                            <div data-ratio="1.55" id="medium" class="calculating__choose-item">Умеренная активность
+                            </div>
+                            <div data-ratio="1.725" id="high" class="calculating__choose-item active">Высокая активность
+                            </div>
+                        </div>
+
+                        <div class="calculating__total">
+                            <div class="calculating__subtitle">
+                                Ваша суточная норма калорий:
+                            </div>
+                            <div class="calculating__result">
+                                <span></span> ккал
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="resume">
@@ -153,6 +203,8 @@
                 </div>
             </div>
         </div>
+
+
 
     </main>
 
