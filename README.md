@@ -4,7 +4,9 @@
 
 Готовность `30%` (пока в приоритете `React`)
 
-
+![](https://github.com/Areave/myDemonstratePage/blob/main/screen0.png)
+___________________
+![](https://github.com/Areave/myDemonstratePage/blob/main/screen.png)
 ## Что делает
 
 - Загружает архив лучших фотографий дня с помощью [Reddit API](https://www.reddit.com/dev/api/), выводит одну из них на страницу, по клику обновляет
