@@ -1,19 +1,34 @@
-/* montserrat-regular - latin */
+/* montserrat-regular - latin_cyrillic */
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/montserrat-v15-latin-regular.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-regular.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/montserrat-v15-latin_cyrillic-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff") format("woff"), url("../fonts/montserrat-v15-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/montserrat-v15-latin_cyrillic-regular.svg#Montserrat") format("svg");
+  /* Legacy iOS */
 }
 
-/* montserrat-700 - latin */
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/montserrat-v15-latin_cyrillic-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v15-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-500.woff") format("woff"), url("../fonts/montserrat-v15-latin_cyrillic-500.ttf") format("truetype"), url("../fonts/montserrat-v15-latin_cyrillic-500.svg#Montserrat") format("svg");
+  /* Legacy iOS */
+}
+
+/* montserrat-700 - latin_cyrillic */
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/montserrat-v15-latin-700.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-700.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/montserrat-v15-latin_cyrillic-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v15-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-700.woff") format("woff"), url("../fonts/montserrat-v15-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/montserrat-v15-latin_cyrillic-700.svg#Montserrat") format("svg");
+  /* Legacy iOS */
 }
 
 /* kaushan-script-regular - latin */
@@ -41,6 +56,72 @@
   font-weight: 500;
   src: local(""), url("../fonts/roboto-v20-latin-500italic.woff2") format("woff2"), url("../fonts/roboto-v20-latin-500italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* literata-regular - latin */
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/literata-v23-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/literata-v23-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/literata-v23-latin-regular.woff2") format("woff2"), url("../fonts/literata-v23-latin-regular.woff") format("woff"), url("../fonts/literata-v23-latin-regular.ttf") format("truetype"), url("../fonts/literata-v23-latin-regular.svg#Literata") format("svg");
+  /* Legacy iOS */
+}
+
+/* literata-500 - latin */
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/literata-v23-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/literata-v23-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/literata-v23-latin-500.woff2") format("woff2"), url("../fonts/literata-v23-latin-500.woff") format("woff"), url("../fonts/literata-v23-latin-500.ttf") format("truetype"), url("../fonts/literata-v23-latin-500.svg#Literata") format("svg");
+  /* Legacy iOS */
+}
+
+/* literata-700 - latin */
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/literata-v23-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/literata-v23-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/literata-v23-latin-700.woff2") format("woff2"), url("../fonts/literata-v23-latin-700.woff") format("woff"), url("../fonts/literata-v23-latin-700.ttf") format("truetype"), url("../fonts/literata-v23-latin-700.svg#Literata") format("svg");
+  /* Legacy iOS */
+}
+
+/* manrope-regular - latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v4-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/manrope-v4-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/manrope-v4-latin-regular.woff2") format("woff2"), url("../fonts/manrope-v4-latin-regular.woff") format("woff"), url("../fonts/manrope-v4-latin-regular.ttf") format("truetype"), url("../fonts/manrope-v4-latin-regular.svg#Manrope") format("svg");
+  /* Legacy iOS */
+}
+
+/* manrope-500 - latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/manrope-v4-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/manrope-v4-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/manrope-v4-latin-500.woff2") format("woff2"), url("../fonts/manrope-v4-latin-500.woff") format("woff"), url("../fonts/manrope-v4-latin-500.ttf") format("truetype"), url("../fonts/manrope-v4-latin-500.svg#Manrope") format("svg");
+  /* Legacy iOS */
+}
+
+/* manrope-700 - latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/manrope-v4-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/manrope-v4-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/manrope-v4-latin-700.woff2") format("woff2"), url("../fonts/manrope-v4-latin-700.woff") format("woff"), url("../fonts/manrope-v4-latin-700.ttf") format("truetype"), url("../fonts/manrope-v4-latin-700.svg#Manrope") format("svg");
+  /* Legacy iOS */
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -400,22 +481,37 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* montserrat-regular - latin */
+/* montserrat-regular - latin_cyrillic */
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/montserrat-v15-latin-regular.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-regular.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/montserrat-v15-latin_cyrillic-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff") format("woff"), url("../fonts/montserrat-v15-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/montserrat-v15-latin_cyrillic-regular.svg#Montserrat") format("svg");
+  /* Legacy iOS */
 }
 
-/* montserrat-700 - latin */
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/montserrat-v15-latin_cyrillic-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v15-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-500.woff") format("woff"), url("../fonts/montserrat-v15-latin_cyrillic-500.ttf") format("truetype"), url("../fonts/montserrat-v15-latin_cyrillic-500.svg#Montserrat") format("svg");
+  /* Legacy iOS */
+}
+
+/* montserrat-700 - latin_cyrillic */
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/montserrat-v15-latin-700.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-700.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/montserrat-v15-latin_cyrillic-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v15-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-700.woff") format("woff"), url("../fonts/montserrat-v15-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/montserrat-v15-latin_cyrillic-700.svg#Montserrat") format("svg");
+  /* Legacy iOS */
 }
 
 /* kaushan-script-regular - latin */
@@ -445,11 +541,80 @@ textarea {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-html, body {
+/* literata-regular - latin */
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/literata-v23-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/literata-v23-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/literata-v23-latin-regular.woff2") format("woff2"), url("../fonts/literata-v23-latin-regular.woff") format("woff"), url("../fonts/literata-v23-latin-regular.ttf") format("truetype"), url("../fonts/literata-v23-latin-regular.svg#Literata") format("svg");
+  /* Legacy iOS */
+}
+
+/* literata-500 - latin */
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/literata-v23-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/literata-v23-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/literata-v23-latin-500.woff2") format("woff2"), url("../fonts/literata-v23-latin-500.woff") format("woff"), url("../fonts/literata-v23-latin-500.ttf") format("truetype"), url("../fonts/literata-v23-latin-500.svg#Literata") format("svg");
+  /* Legacy iOS */
+}
+
+/* literata-700 - latin */
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/literata-v23-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/literata-v23-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/literata-v23-latin-700.woff2") format("woff2"), url("../fonts/literata-v23-latin-700.woff") format("woff"), url("../fonts/literata-v23-latin-700.ttf") format("truetype"), url("../fonts/literata-v23-latin-700.svg#Literata") format("svg");
+  /* Legacy iOS */
+}
+
+/* manrope-regular - latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v4-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/manrope-v4-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/manrope-v4-latin-regular.woff2") format("woff2"), url("../fonts/manrope-v4-latin-regular.woff") format("woff"), url("../fonts/manrope-v4-latin-regular.ttf") format("truetype"), url("../fonts/manrope-v4-latin-regular.svg#Manrope") format("svg");
+  /* Legacy iOS */
+}
+
+/* manrope-500 - latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/manrope-v4-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/manrope-v4-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/manrope-v4-latin-500.woff2") format("woff2"), url("../fonts/manrope-v4-latin-500.woff") format("woff"), url("../fonts/manrope-v4-latin-500.ttf") format("truetype"), url("../fonts/manrope-v4-latin-500.svg#Manrope") format("svg");
+  /* Legacy iOS */
+}
+
+/* manrope-700 - latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/manrope-v4-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/manrope-v4-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/manrope-v4-latin-700.woff2") format("woff2"), url("../fonts/manrope-v4-latin-700.woff") format("woff"), url("../fonts/manrope-v4-latin-700.ttf") format("truetype"), url("../fonts/manrope-v4-latin-700.svg#Manrope") format("svg");
+  /* Legacy iOS */
+}
+
+html,
+body {
   box-sizing: border-box;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: inherit;
 }
 
@@ -462,8 +627,29 @@ img {
 }
 
 .main-wrapper {
-  padding: 0 200px;
-  max-height: 100%;
+  max-width: 900px;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+
+.annotation {
+  font-family: "Literata";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  color: #252525;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.section-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 1.3;
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .header {
@@ -487,10 +673,10 @@ img {
 }
 
 .header__menu-link {
-  font-family: "Roboto";
+  font-family: "Literata";
   font-weight: 500;
-  font-size: 24px;
-  line-height: 1.2;
+  font-size: 18px;
+  line-height: 1.1;
   color: #252525;
   text-decoration: none;
   padding: 0 5px;
@@ -499,15 +685,13 @@ img {
 }
 
 .header__menu-link:hover {
-  opacity: .7;
-  border: 2px #4e4e4e solid;
-  transition: .5s all;
+  border: 1px #4e4e4e solid;
+  transition: 0.5s all;
 }
 
 .intro {
   padding-top: 120px;
-  margin-bottom: 100px;
-  height: 100vh;
+  margin-bottom: 150px;
 }
 
 .intro-wrapper {
@@ -519,51 +703,81 @@ img {
   margin-bottom: 30px;
 }
 
-.intro-title {
-  font-family: "Kaushan Script";
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 1.5;
-  color: black;
-}
-
 .intro-symbol {
   font-size: 20px;
   vertical-align: top;
 }
 
 .intro-subtitle {
-  font-family: "Montserrat";
+  font-family: "Literata";
   font-weight: 400;
   font-size: 35px;
-  line-height: 1.3;
+  line-height: 1.2;
   color: #252525;
   margin-bottom: 20px;
 }
 
 .intro-text {
-  font-family: "Montserrat";
+  font-family: "Manrope";
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.3;
+  font-size: 21px;
+  line-height: 1.2;
   color: #636363;
   padding: 0 60px;
+}
+
+.intro__form_form {
+  padding: 20px 0;
+}
+
+.intro__form_fieldset {
+  display: flex;
+}
+
+.intro__form_input {
+  width: 40%;
+}
+
+.intro__form_submit {
+  width: 20%;
+}
+
+.reddit_pic {
+  border: 1px #4e4e4e solid;
+  box-shadow: 4px 5px 15px 1px rgba(34, 60, 80, 0.58);
+  width: 700px;
+  height: 750px;
+  margin: 0 auto;
+  background-color: #e9e9e9;
+}
+
+.reddit_pic-title {
+  font-family: "Literata";
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.2;
+  color: #252525;
+  font-style: italic;
+  padding: 20px;
   text-align: center;
 }
 
-.intro__form_wrapper {
-  width: 100%;
-  border: 2px #4e4e4e solid;
-}
-
 .reddit_pic-wrapper {
-  height: 60vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  object-fit: fill;
+  padding: 20px;
 }
 
 .reddit_pic-picture {
-  margin: 0 auto;
+  filter: contrast(70%) saturate(70%);
   animation-name: Appearance;
-  animation-duration: .5s;
+  animation-duration: 0.5s;
   animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
 }
 
@@ -576,13 +790,8 @@ img {
   }
 }
 
-.cards-title {
-  font-family: "Kaushan Script";
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 1.5;
-  color: black;
-  text-align: center;
+.section-cards {
+  margin-bottom: 150px;
 }
 
 .cards-wrapper {
@@ -592,30 +801,232 @@ img {
 }
 
 .card-card {
-  width: 25%;
+  width: 30%;
+  padding: 10px;
+  border: 1px #4e4e4e solid;
+  box-shadow: 4px 5px 15px 1px rgba(34, 60, 80, 0.58);
+  margin: 10px;
 }
 
 .card-name {
-  font-family: "Montserrat";
+  font-family: "Literata";
   font-weight: 400;
   font-size: 35px;
-  line-height: 1.3;
+  line-height: 1.2;
   color: #252525;
+  font-size: 18px;
+  margin: 8px 0 4px;
 }
 
 .card-mail {
-  font-family: "Roboto";
+  font-family: "Literata";
   font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  color: #252525;
+  font-size: 12px;
+  margin: 7px 0;
+  color: #ff5640;
+}
+
+.card-review {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.2;
+  color: #636363;
+  font-size: 16px;
+  padding: 5px;
+  line-height: 1.5;
+}
+
+.fav-customer {
+  margin-bottom: 150px;
+}
+
+.fav-customer-card {
+  display: flex;
+  padding: 30px;
+  border: 1px #4e4e4e solid;
+  box-shadow: 4px 5px 15px 1px rgba(34, 60, 80, 0.58);
+}
+
+.fav-customer-pic-wrapper {
+  max-width: 30%;
+}
+
+.fav-customer-img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 100%;
+  filter: grayscale(80%) sepia(80%);
+}
+
+.fav-customer-quote {
+  flex: 0 0 0.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px 40px 30px 70px;
+}
+
+.fav-customer-quote-text {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.2;
+  color: #636363;
+  line-height: 2;
   font-size: 24px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.fav-customer-quote-title {
+  font-family: "Literata";
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.2;
+  color: #252525;
+  text-align: right;
+  font-size: 29px;
+  color: #ff5640;
+}
+
+.slider {
+  margin-bottom: 150px;
+}
+
+.timer {
+  margin-bottom: 150px;
+}
+
+.timer-info {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.2;
+  color: #636363;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.timer-info-item {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.2;
+  color: #636363;
+  font-weight: 700;
+  color: #ff5640;
+}
+
+.timer-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.timer-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 200px;
+  width: 20%;
+  border: 1px #4e4e4e solid;
+  box-shadow: 4px 5px 15px 1px rgba(34, 60, 80, 0.58);
+}
+
+.timer-card .num {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 1.3;
+  color: black;
+}
+
+.timer-card .desc {
+  font-family: "Literata";
+  font-weight: 400;
+  font-size: 35px;
   line-height: 1.2;
   color: #252525;
 }
 
-.card-review {
-  font-family: "Montserrat";
+.calc {
+  margin-bottom: 150px;
+}
+
+.calc-fields {
+  border: 1px #4e4e4e solid;
+  box-shadow: 4px 5px 15px 1px rgba(34, 60, 80, 0.58);
+  padding: 30px;
+  height: 620px;
+}
+
+.calc .calculating-subtitle {
+  font-family: "Literata";
   font-weight: 400;
+  font-size: 35px;
+  line-height: 1.2;
+  color: #252525;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.calc .calculating-choose {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.calc .calculating-choose > input {
+  width: 20%;
+}
+
+.calc .calculating-choose-item {
+  cursor: pointer;
+  width: 30%;
+  height: 40px;
+  border: 1px #4e4e4e solid;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  font-family: "Literata";
+  font-weight: 500;
   font-size: 18px;
+  line-height: 1.1;
+  color: #252525;
+}
+
+.calc .calculating-choose-item[data-ratio] {
+  width: 20%;
+}
+
+.calc .calculating-choose-item.active {
+  background-color: #ff5640;
+}
+
+.calc .calculating-result {
+  text-align: center;
+}
+
+.calc .calculating-result .enter-data {
+  font-family: "Literata";
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.2;
+  color: #252525;
+  color: #ffda00;
+}
+
+.calc .calculating-result span {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 55px;
   line-height: 1.3;
-  color: #636363;
+  color: black;
+  color: #ff5640;
 }
 /*# sourceMappingURL=main.css.map */

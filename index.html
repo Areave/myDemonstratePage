@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Pair of Air</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+          <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+        <title>Pair of Air</title>
 </head>
 
 <body>
 
-    <header class="header">
+         <header class="header">
         <div class="main-wrapper">
             <div class="header-wrapper">
                 <div class="header__logo-wrapper">
@@ -21,7 +22,7 @@
                 <ul class="header__menu">
                     <li class="header__menu-item"><a href="#!" class="header__menu-link">works</a></li>
                     <li class="header__menu-item"><a href="#!" class="header__menu-link">about</a></li>
-                    <li class="header__menu-item"><a href=#!"" class="header__menu-link">contacts</a></li>
+                    <li class="header__menu-item"><a href=#! "" class="header__menu-link">contacts</a></li>
                 </ul>
 
             </div>
@@ -30,29 +31,32 @@
 
     <main class="main">
 
+
+
         <section class="intro">
             <div class="main-wrapper">
                 <div class="intro-wrapper">
                     <div class="intro-desc-wrapper">
-                        <h1 class="intro-title">Hello! We sells the Air!</h1>
+                        <h1 class="intro-title section-title">Hello! We sells the Air!</h1>
                         <h2 class="intro-subtitle">Not just air. The Air<span class="intro-symbol">&trade;</span></h2>
-                        <p class="intro-text">Yes, that's what we do. Exellent air, composed from very healthy
-                            components only for you!</p>
+                        <p class="intro-text"></p>
                     </div>
 
-
+                    <div class="annotation">[Picture from Reddit API]</div>
                     <div class="reddit_pic">
-                        <h2 class="reddit_pic-title"></h2>
                         <div class="reddit_pic-wrapper">
                             <img src="" alt="picture" class="reddit_pic-picture">
                         </div>
+                        <h3 class="reddit_pic-title"></h3>
+
                     </div>
 
 
 
 
-                    <div class="intro__form_wrapper">
-                        <form name="form" action="" class="intro__form">
+
+                    <div class="intro__form">
+                        <form name="form" action="" class="intro__form_form">
                             <fieldset class="intro__form_fieldset">
                                 <input type="text" class="intro__form_input">
                                 <input type="text" class="intro__form_input">
@@ -66,38 +70,47 @@
 
         <section class="section-cards">
             <div class="main-wrapper">
-                <h2 class="cards-title">Chuck Norris jokes</h2>
+                <h2 class="cards-title section-title">Chuck Norris jokes</h2>
+                <div class="annotation">[Funny stuff from several API]</div>
                 <div class="cards-wrapper">
 
 
 
 
                 </div>
+
             </div>
+
         </section>
 
         <section class="fav-customer">
             <div class="main-wrapper">
-                <h2 class="fav-customer-title">Our favorit customer!</h2>
-                <div class="fav-customer-card">
-                    <div class="fav-customer-pic-wrapper">
-                        <img src="" alt="" class="fav-customer-img">
+                <div class="fav-customer-wrapper">
+                    <h2 class="fav-customer-title section-title">Our favorit customer!</h2>
+                    <div class="annotation">[Dad joke and dinamic pic from <a target="blanc" href='http://thispersondoesnotexist.com'>thispersondoesnotexist.com]</a></div>
+                    <div class="fav-customer-card">
+                        <div class="fav-customer-pic-wrapper">
+                            <img src="" alt="" class="fav-customer-img">
+                        </div>
+                        <div class="fav-customer-quote">
+                            <p class="fav-customer-quote-text"></p>
+                            <h3 class="fav-customer-quote-title">Jackie McDouglas</h3>
+                        </div>
                     </div>
-                    <div class="fav-customer-quote">
-                        <h3 class="fav-customer-quote-title">Jwfwefewfwef</h3>
-                        <p class="fav-customer-quote-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem ratione ea distinctio. Non tenetur quod tempore maxime voluptates sunt dicta vero! </p>
-                    </div>
-                </div>
 
+                </div>
 
             </div>
             </div>
         </section>
 
         <section class="slider">
+            <h2 class="slider-title section-title">Our air!</h2>
+            <div class="annotation">[Slick slider]</div>
             <div class="slider-wrapper">
-                <img src="./img/slider.jpg" alt="slider" class="slider-img">
-
+                <div class="slide"><img src="./img/slider1.jpg" alt="slider" class="slider-img"></div>
+                <div class="slide"><img src="./img/slider2.jpg" alt="slider" class="slider-img"></div>
+                <div class="slide"><img src="./img/slider3.jpg" alt="slider" class="slider-img"></div>
             </div>
         </section>
 
@@ -108,27 +121,28 @@
             <div class="timer-wrapper">
 
                 <div class="timer-title-wrapper">
-                    <h2 class="timer-title">We know everything</h2>
-                    <p class="timer-info">Your city is <span class="city">Gotham</span>, and today is <span
-                            class="weekday">Monday</span>, <span class="day">5</span> <span class="month">may</span>
-                        <span class="year">2023</span>!
+                    <h2 class="timer-title section-title">Our Timer</h2>
+                    <div class="annotation">[just timer]</div>
+                    <p class="timer-info">Your city is <span class="city timer-info-item">Gotham</span>, and today is <span class="weekday timer-info-item"></span>, <span class="day timer-info-item">5</span> <span class="month timer-info-item">may</span>
+                        <span class="year timer-info-item">2023</span>
                     </p>
                 </div>
+
                 <div class="timer-cards">
 
                     <div class="timer-card hours">
-                        <div class="num">16</div>
+                        <div class="num"></div>
                         <div class="desc">hours</div>
                     </div>
 
                     <div class="timer-card min">
-                        <div class="num">45</div>
-                        <div class="desc">minutes</div>
+                        <div class="num"></div>
+                        <div class="desc">min</div>
                     </div>
 
                     <div class="timer-card sec">
-                        <div class="num">32</div>
-                        <div class="desc">seconds</div>
+                        <div class="num"></div>
+                        <div class="desc">sec</div>
                     </div>
 
 
@@ -139,53 +153,56 @@
         <section class="calc">
             <div class="main-wrapper">
                 <div class="calc-wrapper">
-                    <h2 class="calc-title">We know about you</h2>
+                    <h2 class="calc-title section-title">Calories calc</h2>
+                    <div class="annotation">[for your health]</div>
 
-                    <div class="calc-fields">
-                        <div class="calculating__subtitle">
-                            Ваш пол
-                        </div>
-                        <div class="calculating__choose" id="gender">
-                            <div id="woman" class="calculating__choose-item active">Женщина</div>
-                            <div id="man" class="calculating__choose-item">Мужчина</div>
-                        </div>
+                     <div class="calc-fields">
 
-                        <div class="calculating__subtitle">
-                            Ваша конституция
+                        <div class="calculating-subtitle">
+                            Your gender
                         </div>
-                        <div class="calculating__choose" id="parameters">
-                            <input type="text" id="height" placeholder="Введите рост" class="calculating__choose-item">
-                            <input type="text" id="weight" placeholder="Введите вес" class="calculating__choose-item">
-                            <input type="text" id="age" placeholder="Введите возраст" class="calculating__choose-item">
+                        <div class="calculating-choose" id="gender">
+                            <div id="woman" class="calculating-choose-item">W</div>
+                            <div id="man" class="calculating-choose-item">M</div>
                         </div>
 
-                        <div class="calculating__subtitle">
-                            Выберите вашу физическую активность
+                        <div class="calculating-subtitle">
+                            Your body parameters
                         </div>
-                        <div class="calculating__choose" id="ratio">
-                            <div data-ratio="1.2" id="low" class="calculating__choose-item">Низкая активность </div>
-                            <div data-ratio="1.375" id="small" class="calculating__choose-item">Невысокая активность
+                        <div class="calculating-choose" id="parameters">
+                            <input type="text" id="height" placeholder="height" class="calculating__choose-item">
+                            <input type="text" id="weight" placeholder="weight" class="calculating__choose-item">
+                            <input type="text" id="age" placeholder="age" class="calculating__choose-item">
+                        </div>
+
+                        <div class="calculating-subtitle">
+                            Your phisycal activity
+                        </div>
+                        <div class="calculating-choose" id="ratio">
+                            <div data-ratio="1.2" id="low" class="calculating-choose-item">Low</div>
+                            <div data-ratio="1.375" id="small" class="calculating-choose-item">Upper
                             </div>
-                            <div data-ratio="1.55" id="medium" class="calculating__choose-item">Умеренная активность
+                            <div data-ratio="1.55" id="medium" class="calculating-choose-item">Average
                             </div>
-                            <div data-ratio="1.725" id="high" class="calculating__choose-item active">Высокая активность
+                            <div data-ratio="1.725" id="high" class="calculating-choose-item">High
                             </div>
                         </div>
 
                         <div class="calculating__total">
-                            <div class="calculating__subtitle">
-                                Ваша суточная норма калорий:
+                            <div class="calculating-subtitle">
+                                Your daily norm:
                             </div>
-                            <div class="calculating__result">
-                                <span></span> ккал
+                            <div class="calculating-result">
+                               <div class="enter-data"></div> 
+                                <span></span>
                             </div>
                         </div>
 
                     </div>
                 </div>
-                <div class="resume">
+                <!-- <div class="resume">
                     Your name is <span class="name">John</span> <span class="lastname">Snow</span>!
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -215,16 +232,29 @@
         </div>
         <div class="footer-cont-wrapper">
             <ul class="footer-contacts">
-                <li><a href="" class="footer-link"></a></li>
-                <li><a href="" class="footer-link"></a></li>
-                <li><a href="" class="footer-link"></a></li>
+                <li>
+                    <a href="" class="footer-link"></a>
+                </li>
+                <li>
+                    <a href="" class="footer-link"></a>
+                </li>
+                <li>
+                    <a href="" class="footer-link"></a>
+                </li>
             </ul>
         </div>
 
     </footer>
 
-    <script type="module" src="./js/scriptParse.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/plugins/slick.min.js"></script>
+    <!-- 
+    <script type="module" src="./js/scriptParse.js"></script> -->
     <script type="module" src="./js/script.js"></script>
+    <script type="module" src="./js/sliderInit.js"></script>
+
+
 
 </body>
 

@@ -31,8 +31,8 @@ export default function reviewCards(amountOfCards) {
                                 <img src="./img/review${i + 1}.jpg" alt="${name}" class="card-img card-img${i + 1}">
                             </div>
                             <div class="card-header-title">
-                                <span class="card-name">${name}</span>
-                                <span class="card-mail">${mail}</span>
+                                <div class="card-name">${name}</div>
+                                <div class="card-mail">${mail}</div>
                             </div>
                         </div>
                         <p class="card-review">

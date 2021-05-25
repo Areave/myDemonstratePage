@@ -13,9 +13,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const service = new Service();
 
-
     redditPic();
-    reviewCards(3);
+    reviewCards(6);
     calc();
     menu();
     timer();

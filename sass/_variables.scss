@@ -6,12 +6,14 @@ $third-color:#ff5640;
 $text-color-main:black;
 $text-color-middle: rgb(37, 37, 37);
 $text-color-light: rgb(99, 99, 99);
-$border: 2px rgb(78, 78, 78) solid;
+$border: 1px rgb(78, 78, 78) solid;
+$shadow: 4px 5px 15px 1px rgba(34, 60, 80, 0.58);
+$marginBottom: 150px;
 
 $fonts-families: (
     'main': 'Montserrat',
-    'second': 'Kaushan Script',
-    'third': 'Roboto'
+    'second': 'Literata',
+    'third': 'Manrope'
 );
 
 $font-weights: (
@@ -21,30 +23,31 @@ $font-weights: (
 );
 
 $font-sizes: (
-    'big': 60px,
+    'big': 55px,
     'second-big': 35px,
-    'middle': 24px,
+    'middle': 21px,
     'small': 18px
 );
 
 $line-heights: (
-    'big': 1.5,
-    'middle': 1.3,
-    'small': 1.2
+    'big': 1.3,
+    'middle': 1.2,
+    'small': 1.1
 );
 
 // titles
 @mixin text-title {
-    font-family: map-get($fonts-families, second);
+    font-family: map-get($fonts-families, main);
     font-weight: map-get($font-weights, max );
-    font-size: map-get($font-sizes ,big );   
+    font-size: map-get($font-sizes, big );   
     line-height: map-get($line-heights, big);
     color:$text-color-main;
+
 }
 
 // subtitles
 @mixin text-subtitle {
-    font-family: map-get($fonts-families, main);
+    font-family: map-get($fonts-families, second);
     font-weight: map-get($font-weights, min );
     font-size: map-get($font-sizes ,second-big );  
     line-height: map-get($line-heights, middle);
@@ -53,18 +56,24 @@ $line-heights: (
 
 // description
 @mixin text-desc {
-    font-family: map-get($fonts-families, main);
+    font-family: map-get($fonts-families, third);
     font-weight: map-get($font-weights, min );
-    font-size: map-get($font-sizes , small ); 
+    font-size: map-get($font-sizes , middle ); 
     line-height: map-get($line-heights, middle);  
     color:$text-color-light;   
 }
 
 // links etc
 @mixin text-small {
-    font-family: map-get($fonts-families, third);
+    font-family: map-get($fonts-families, second);
     font-weight: map-get($font-weights, regular );
-    font-size: map-get($font-sizes , middle ); 
+    font-size: map-get($font-sizes , small ); 
     line-height: map-get($line-heights, small);
     color:$text-color-middle;     
+}
+
+// border & shadow
+@mixin border-shadow {
+    border: $border;
+    box-shadow:$shadow;
 }
